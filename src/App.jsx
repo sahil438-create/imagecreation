@@ -32,6 +32,8 @@ const App = () => {
 
   return (
     <div className="App">
+      Name:Sahil Gupta
+      Email :Gsahil438@gmail.com
       <SearchBar onSearch={fetchImages} images={images} />
       <ImageResults images={images} onSelectImage={setSelectedImage} />
       {selectedImage && <CanvasEditor imageUrl={selectedImage} />}
