@@ -18,8 +18,8 @@ const App = () => {
       `https://pixabay.com/api/?key=44961852-4b47c4620eca70cf11bbf6b3e`
     );
 
-    const data = await response.json();
-    setimagesdata(data.hits);
+    const Data = await response.json();
+    setimagesdata(Data.hits);
 
     const Filtereddata = imagesdata.filter((elem) => {
       setImages(data.hits);
