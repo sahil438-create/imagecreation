@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className="App">
     <h1> Name :Sahil Gupta </h1> <br/>
-    <h1> Email  : Gsahil438@gmail.com </h1>  <br/>
+    <h1> Email  : gsahil438@gmail.com </h1>  <br/>
       <SearchBar onSearch={fetchImages} images={images} />
       <ImageResults images={images} onSelectImage={setSelectedImage} />
       {selectedImage && <CanvasEditor imageUrl={selectedImage} />}
